@@ -1,0 +1,160 @@
+/* about.css */
+
+h1 {
+  font-size: 50px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.container {
+  max-width: 1520px;
+  background-color: #ccc;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* main-visual */
+.main-visual {
+  max-width: 100%; /*1920px-container*/
+  height: 500px;
+  background-color: tomato;
+  background-image: url(/images/about/main-visual.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-visual p {
+  color: #fff;
+  font-size: 80px;
+  font-weight: 700;
+}
+
+/* intro */
+
+#intro .container .intro-text {
+  padding: 200px 0px 150px 0px;
+}
+#intro .container .intro-text h1 {
+  margin-bottom: 45px;
+}
+#intro .container .intro-text p {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+/* vision */
+
+#vision .container {
+  background-color: goldenrod;
+}
+#vision .container .menu {
+  border-top: 1px solid green;
+  display: inline-block;
+  margin-top: 150px;
+  margin-bottom: 88px;
+}
+
+#vision .container .section1 .sec1-box,
+#vision .container .section1 .sec3-box {
+  width: 100%;
+  height: 694px;
+  display: flex;
+  /* 얘가 문젠거 같은데?????????  */
+  background-color: beige;
+  border: 1px solid red;
+  margin-bottom: 300px;
+  position: relative;
+}
+#vision .container .section1 p {
+  font-size: 18px;
+  line-height: 40px;
+  margin-top: 30px;
+}
+
+/* sec1-box */
+#vision .container .section1 .sec1-box .img-box1 img {
+  position: absolute;
+  bottom: 0;
+}
+#vision .container .section1 .sec1-box .img-box2 {
+  position: absolute;
+  left: 517px;
+}
+#vision .container .section1 .sec1-box .text-box {
+  position: absolute;
+  bottom: 77px;
+  right: 0;
+}
+#vision .container .section1 .sec1-box .text-box h2 {
+  margin-bottom: 30px;
+  font-size: 26px;
+  font-weight: 700;
+}
+#vision .container .section1 .sec1-box .text-box p {
+  font-size: 18px;
+  font-weight: 400;
+}
+/* sec2-box */
+#vision .container .section1 .sec2-box {
+  height: 737px;
+  width: 100%;
+  display: flex;
+  background-color: beige;
+  border: 1px solid red;
+  margin-bottom: 300px;
+  position: relative;
+}
+
+#vision .container .section1 .sec2-box .img-box1 {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+#vision .container .section1 .sec2-box .img-box2 {
+  position: absolute;
+  right: 513px;
+}
+#vision .container .section1 .sec2-box .text-box {
+  position: absolute;
+  bottom: 119px;
+}
+
+/* sec3 */
+#vision .container .section1 .sec3-box {
+  height: 790px;
+  width: 100%;
+  display: flex;
+  background-color: beige;
+  border: 1px solid red;
+  margin-bottom: 300px;
+  position: relative;
+}
+
+#vision .container .section1 .sec3-box .img-box1 {
+  position: absolute;
+  bottom: 0;
+}
+
+#vision .container .section1 .sec3-box .img-box2 {
+  position: absolute;
+  left: 517px;
+}
+#vision .container .section1 .sec3-box .text-box {
+  position: absolute;
+  bottom: 143px;
+  right: 0;
+}
+
+/* contact */
+
+#contact .container .menu {
+  border-top: 1px solid green;
+  display: inline-block;
+  margin-top: 150px;
+  margin-bottom: 88px;
+}
