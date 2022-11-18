@@ -1,0 +1,282 @@
+/* mobile.css */
+
+/* header */
+.header {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+}
+
+.header a {
+  color: #000;
+}
+
+/* 좌측 로고 style 입니다. */
+
+.logo a img {
+  width: 129px;
+  height: 57px;
+}
+
+.logo {
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+
+/* 중앙 GNB style 입니다. */
+
+nav {
+  height: 90px;
+  display: none;
+}
+
+nav > ul {
+  font-size: 16px;
+}
+
+.dep1_ul {
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+.dep1_ul > li {
+  width: 150px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.dep2_ul {
+  max-height: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 100%;
+  width: 150px;
+}
+
+.dep1_li:hover .dep2_ul {
+  max-height: 200px;
+  transition: 1s;
+}
+
+.dep2_li {
+  margin-bottom: 10px;
+}
+
+/* 우측 ui style 입니다. */
+
+.header_ui {
+  height: 90px;
+  display: flex;
+  align-items: center;
+}
+
+.lang a {
+  display: flex;
+  align-items: center;
+  margin-right: 45px;
+}
+
+.lang a img {
+  padding-left: 10px;
+}
+
+.m_btn a {
+  display: flex;
+  align-items: center;
+}
+
+/* about.css */
+
+:root {
+  --main-color: #fff;
+  --bg-color: #f7f7f7;
+}
+
+h1 {
+  font-size: 26px;
+  font-weight: 500;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 40px;
+}
+
+.container {
+  width: 280px;
+  /* 양 옆 패딩 뺀 값(320px-40px) */
+  /* background-color: #ccc; */
+  margin: 0 auto;
+  position: relative;
+}
+
+/* main-visual */
+.main-visual {
+  max-width: 100%; /*1920px-container*/
+  height: 320px;
+  background-image: url(/images/about/main-visual.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-visual p {
+  color: #fff;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+/* lnb */
+#intro .container .Lnb {
+  display: none;
+}
+
+/* intro */
+#intro .container .intro-text-box .mark {
+  width: 80px;
+  height: 3px;
+  background-color: #a2c233;
+  margin-bottom: 14px;
+  /* position: absolute;
+  left: 5px; */
+}
+
+#intro .container .intro-text-box {
+  padding: 61px 0px 50px 0px;
+}
+#intro .container .intro-text-box h1 {
+  margin-bottom: 25px;
+}
+#intro .container .intro-text-box p {
+  font-size: 15px;
+}
+
+/* vision */
+
+#vision .vision-bg1 {
+  background-color: var(--bg-color);
+}
+#vision .vision-bg2 {
+  background-color: var(--main-color);
+}
+
+#vision .container {
+  padding-top: 50px;
+  text-align: left;
+  /* text-align: justify; */
+}
+
+#vision .container .menu {
+  border-top: 3px solid #a2c233;
+  display: inline-block;
+  margin-bottom: 30px;
+}
+#vision .container h2 {
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 26px;
+}
+
+#vision .container p {
+  font-size: 16px;
+  line-height: 26px;
+}
+#vision .container img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+/* sec1-box */
+
+#vision .container .section1 {
+  padding-bottom: 54px;
+  /* background-color: goldenrod; */
+}
+
+#vision .container .section1 .sec1-box {
+  height: 537px;
+  /* background-color: yellow;
+  border: 3px solid red; */
+}
+
+/* sec2-box */
+#vision .container .section2 {
+  padding-bottom: 54px;
+  /* background-color: rebeccapurple; */
+}
+
+#vision .container .section2 .sec2-box {
+  height: 488px;
+  /* background-color: blanchedalmond;
+  border: 1px solid red; */
+}
+
+/* sec3 */
+#vision .container .section3 {
+  padding-bottom: 50px;
+  /* background: green; */
+}
+#vision .container .section3 .sec3-box {
+  height: 480px;
+  width: 100%;
+}
+
+/* contact */
+#contact .container {
+  background: #ccc;
+}
+#contact .container .contact-bg {
+  background: yellow;
+  margin-bottom: 50px;
+}
+
+#contact .container .menu {
+  border-top: 3px solid #a2c233;
+  display: inline-block;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+#contact .container .map-text-box {
+  margin-top: 20px;
+}
+
+#contact .container .map iframe {
+  width: 100%;
+  height: 180px;
+}
+
+#contact .container .map-text-box .map-text {
+  display: flex;
+  margin-bottom: 14px;
+  font-size: 12px;
+  font-weight: 400;
+}
+#contact .container .map-text-box .map-text img {
+  width: 18px;
+  height: 18px;
+}
+#contact .container .map-text-box .map-text h3 {
+  margin-left: 23px;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+#contact .container .map-text-box .map-text .txt2 {
+  margin-left: 34px;
+}
+#contact .container .map-text-box .map-text .txt3 {
+  margin-left: 23px;
+}
+#contact .container .map-text-box .map-text .txt4 {
+  margin-left: 12px;
+}
