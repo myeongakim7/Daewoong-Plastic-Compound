@@ -2,8 +2,7 @@
   <h1>대웅 플라스틱 컴파운드 홈페이지 리뉴얼</h1>
     <ul>
       <li>오리지널 페이지 : http://www.dwpolychem.com/home/index.php</li>
-      <li>리뉴얼 페이지 :
-      </li>
+      <li>리뉴얼 페이지 : https://myeongakim7.github.io/Daewoong-Plastic-Compound/ </li>
       <li>피그마 시안 :
       <a href="https://www.figma.com/file/d5KFzIVfS9KdjTpokchvkV/%EB%8C%80%EC%9B%85-%ED%94%8C%EB%9D%BC%EC%8A%A4%ED%8B%B1-%EC%BB%B4%ED%8C%8C%EC%9A%B4%EB%94%A9-%EC%97%85%EC%B2%B4?node-id=0%3A1&t=5flNg1KbQSwcjLcf-1" alt="figma">CLICK</a>
       </li>
