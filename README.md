@@ -19,8 +19,8 @@
     <p>figma, github</p>
     <section>
     <h2>Screenshot</h2>
-    <img src="../main/images/daewoong.jpg" alt="daewoong-screenshot">
-<h2>Description</h2>
+    <p><img src="/main/images/daewoong.jpg" alt="daewoong-screenshot"></p>
+    <h2>Description</h2>
     <h3>*</h3>
     <p>
       피그마로 전체 시안 제작(pc/모바일)<br>
