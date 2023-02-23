@@ -1,33 +1,26 @@
-  <section>
   <h1>대웅 플라스틱 컴파운드 홈페이지 리뉴얼</h1>
-    <ul>
-      <li>오리지널 페이지 : http://www.dwpolychem.com/home/index.php</li>
-      <li>리뉴얼 페이지 : https://myeongakim7.github.io/Daewoong-Plastic-Compound/ </li>
-      <li>피그마 시안 :
-      <a href="https://www.figma.com/file/d5KFzIVfS9KdjTpokchvkV/%EB%8C%80%EC%9B%85-%ED%94%8C%EB%9D%BC%EC%8A%A4%ED%8B%B1-%EC%BB%B4%ED%8C%8C%EC%9A%B4%EB%94%A9-%EC%97%85%EC%B2%B4?node-id=0%3A1&t=5flNg1KbQSwcjLcf-1" alt="figma">CLICK</a>
-      </li>
-    </ul>
-  </section>
-  <section>
-    <h3>제작목표</h3>
-    <ul>
-      <li>기존 사이트 노후화 개선</li>
-      <li>반응형 홈페이지 제작</li>
-      <li>풍부한 콘텐츠 구성 </li>
-      <li>기업가치의 제고</li>
-    </ul>
-  </section>
-  <section>
-    <h3>사용한 라이브러리</h3>
-    <ul>
-      <li>HTML</li>
-      <li>CSS</li>
-      <li>jQuery</li>
-    </ul>
-  </section>
-  <br>
-  <section>
-    <h2>제작과정</h2>
+      <ul>
+        <li>기존 대웅 홈페이지 : http://www.dwpolychem.com/home/index.php</li>
+        <li>Demo : https://myeongakim7.github.io/Daewoong-Plastic-Compound/ </li>
+        <li>피그마 시안 :
+        <a href="https://www.figma.com/file/d5KFzIVfS9KdjTpokchvkV/%EB%8C%80%EC%9B%85-%ED%94%8C%EB%9D%BC%EC%8A%A4%ED%8B%B1-%EC%BB%B4%ED%8C%8C%EC%9A%B4%EB%94%A9-%EC%97%85%EC%B2%B4?node-id=0%3A1&t=5flNg1KbQSwcjLcf-1" alt="figma" >Figma-address-Click</a>
+        </li>
+      </ul>
+      <h2>Production goal</h2>
+      <ul>
+        <li>기존 사이트 노후화 개선</li>
+        <li>반응형 홈페이지 제작</li>
+        <li>풍부한 콘텐츠 구성 </li>
+        <li>기업가치의 제고</li>
+      </ul>
+    <h2>Stack</h2>
+    <p></p>
+    <h2>Tools</h2>
+    <p>figma, github</p>
+    <section>
+    <h2>Screenshot</h2>
+    <img src="../main/images/daewoong.jpg" alt="daewoong-screenshot">
+<h2>Description</h2>
     <h3>*</h3>
     <p>
       피그마로 전체 시안 제작(pc/모바일)<br>
