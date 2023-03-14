@@ -14,7 +14,7 @@
         <li>기업가치의 제고</li>
       </ul>
     <h2>Stack</h2>
-    <p></p>
+    <p>Html, CSS, JavaScript, Jquery</p>
     <h2>Tools</h2>
     <p>figma, github</p>
     <section>
