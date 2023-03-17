@@ -1,6 +1,6 @@
 /* sub_main_ banner */
 .sub_2 {
-  max-width: 1520px;
+  max-width: 1920px;
   margin: 0 auto;
 }
 
@@ -10,7 +10,7 @@
   margin: 0 auto;
 }
 .sub_main_banner .container {
-  max-width: 1520px;
+  max-width: 1920px;
   height: 100%;
   background-image: url(../research_images/resaerch_main_banner.jpg);
   background-repeat: no-repeat;
@@ -83,7 +83,7 @@
 }
 
 .sub_2 .sub_title p {
-  font-size: 50px;
+  font-size: 45px;
   padding-top: 10px;
   margin: 0 auto;
   margin-bottom: 50px;
@@ -108,6 +108,7 @@
 #center .container {
   max-width: 1520px;
   height: 100%;
+  margin: 0 auto;
 }
 #center .container .text {
   margin: 0 auto;
@@ -214,7 +215,7 @@
   margin: 0 auto;
 }
 #tech .container .techBanner {
-  max-width: 1520px;
+  max-width: 1920px;
   height: 100%;
   background-image: url(../research_images/tech_background.jpg);
   background-size: cover;
@@ -227,8 +228,8 @@
   color: white;
   font-size: 48px;
   margin: 0 auto;
-  margin-bottom: 80px;
-  margin-left: 100px;
+  margin-bottom: 60px;
+  margin-left: 200px;
 }
 #tech .container .mobile_ver {
   display: none;
@@ -240,12 +241,17 @@
   background: none;
   border: 1.5px solid #fff;
   margin: 0 auto;
-  margin-left: 100px;
+  margin-left: 200px;
+  cursor: pointer;
 }
 #tech .container button > span {
   font-size: 15px;
   color: #fff;
   margin: 0 auto;
+}
+#tech .container button:hover {
+  background: #0000002f;
+  color: white;
 }
 
 /* 특허증 */
@@ -262,25 +268,27 @@
   outline: 1px solid red;
   padding-left: 100px;
   padding-right: 100px;
-  
 }
 #paper .close {
   position: relative;
   height: 100px;
   margin: 0 auto;
+  cursor: pointer;
   /* background-color: red; */
 }
 #paper .close button {
-  width: 160px;
+  width: 150px;
   height: 50px;
   background: none;
   border: 1.5px solid #fff;
   margin-bottom: 10px;
   position: absolute;
-  right: 100px;
+  top: 20px;
+  right: 20px;
   margin: 0 auto;
   margin-left: 100px;
   margin-top: 10px;
+  cursor: pointer;
 }
 #paper .img_box {
   width: 100%;
@@ -297,9 +305,8 @@
   align-items: center;
   margin: 0 auto;
   /* background-color: lightblue; */
-  transition : 1s;
+  transition: 1s;
   transition-duration: 1s;
-        
 }
 
 #paper .direc {
@@ -320,7 +327,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 #paper .direc .right {
   width: 10%;
@@ -332,10 +338,10 @@
 }
 #paper .direc span {
   color: white;
-  font-size: 12em;
+  font-size: 8em;
   text-align: center;
   line-height: 100%;
-  /* outline: 1px solid white; */
+  cursor: pointer;
 }
 
 /* @keyframes translate {
@@ -348,7 +354,6 @@
 } */
 
 #paper .images img {
-  outline: 5px solid red;
   width: 350px;
   height: 500px;
   margin: 0 auto;
