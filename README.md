@@ -13,10 +13,20 @@
         <li>풍부한 콘텐츠 구성 </li>
         <li>기업가치의 제고</li>
       </ul>
-    <h2>Stack</h2>
-    <p>Html, CSS, JavaScript, Jquery</p>
-    <h2>Tools</h2>
-    <p>figma, github</p>
+<h2>Stack</h2>
+<div style="display:flex">
+<img src="https://img.shields.io/badge/html-E34F26?style=for-the-badge&logo=html5&logoColor=white">
+<img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white">
+<img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black">
+<img src="https://img.shields.io/badge/jquery-0769AD?style=for-the-badge&logo=jquery&logoColor=white">
+</div>
+<br>
+<h2>Tool</h2>
+<div style="display:flex">
+<img src="https://img.shields.io/badge/figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white">
+<img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
+</div>
+<br>
     <section>
     <h2>Screenshot</h2>
     <p><img src="/main/images/daewoong.jpg" alt="daewoong-screenshot"></p>
@@ -65,7 +75,7 @@
       <li>모바일 버전 카테고리 배열 정리</li>
     </ul>
     <hr>
-    <h3>후반작업</h3>
+    <h2>후반작업</h2>
     <ul>
       <li>웹 앱 아이콘(파비콘) 생성 </li>
       <li>대표 이미지(thumbnail)생성</li>
