@@ -7,7 +7,7 @@
   padding: 0 20px;
 }
 
-/* header 좌측 로고 style 입니다. */
+/* header 좌측 로고 style*/
 
 .logo a img {
   width: 64px;
@@ -20,13 +20,13 @@
   align-items: center;
 }
 
-/* header nav 입니다. */
+/* header nav */
 
 .header_nav {
   display: none;
 }
 
-/* header 우측 ui style 입니다. */
+/* header 우측 ui style  */
 
 .header_ui {
   height: 50px;
@@ -45,7 +45,7 @@
 
 /* ========================================================================== */
 
-/* site_map 입니다. */
+/* site_map */
 
 .site_map {
   display: none;
@@ -138,7 +138,7 @@
 
 /* ========================================================================== */
 
-/* main_bn css 입니다. */
+/* main_bn css */
 
 .main_bn {
   height: 320px;
@@ -179,7 +179,7 @@
   margin-top: 30px;
 }
 
-/* about 입니다. */
+/* about   */
 
 .about {
   margin-top: 60px;
@@ -211,7 +211,7 @@
   margin-top: 40px;
 }
 
-/* product 입니다. */
+/* product   */
 
 .product {
   /* height: 1563px; */

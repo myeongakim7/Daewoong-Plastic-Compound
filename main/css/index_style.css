@@ -16,6 +16,10 @@ body {
   font-family: "Noto Sans KR", sans-serif;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --green: #a2c233;
   --bgc: #f7f7f7;

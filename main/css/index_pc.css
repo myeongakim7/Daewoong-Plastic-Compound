@@ -128,7 +128,7 @@ nav > ul {
 
 /* ========================================================================== */
 
-/* site_map 스타일입니다. */
+/* site_map 스타일 */
 
 .site_map {
   display: none;
@@ -136,74 +136,121 @@ nav > ul {
 
 .site_map_open {
   display: block;
+  transition: all 1s ease-out;
 }
 
-/* site_map 의 상단입니다. */
+/* site_map 상단 */
 
 .site_map {
-  position: fixed;
-  top: 0;
+  position: absolute;
+  top: 90px;
   left: 0;
   width: 100vw;
-  height: 100vh;
+  height: 340px;
   background-color: #fff;
-  padding: 40px 100px;
+  animation: dropdown 0.4s linear;
 }
 
+@keyframes dropdown {
+  from {
+    top: 0px;
+  }
+  to {
+    top: 90px;
+  }
+}
 .site_map_upper {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  text-align: center;
+  display: none;
 }
 
-.site_map_logo {
-  width: 25%;
-}
-
-.site_map_header_ui {
-  width: 25%;
-}
-
-.site_map_logo a img {
-  width: 129px;
-  height: 57px;
-}
-
-/* site_map 의 하단입니다. */
+/* site_map 하단 */
 
 .site_map_nav {
   height: 100%;
+  transition: all 2s ease-out;
 }
 
 .site_map_dep1_ul {
   display: flex;
-  padding-top: 80px;
-  text-align: center;
+  transition: all 1s ease-out;
 }
 
 .site_map_dep1_li {
   width: 25%;
-  position: relative;
+  height: 340px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 110px;
+  border-top: 1px solid #d8d7d7;
+  border-right: 1px solid #d8d7d7;
+  border-bottom: 1px solid #d8d7d7;
+  transition: all 1s ease-out;
 }
-/* 폰트 수정, 색상 변경 */
-.site_map_dep1_li > a {
-  font-size: 30px;
+.site_map_dep1_li .map-box {
+  width: 150px;
+  height: 250px;
+}
+.site_map_dep1_li .map-box > a {
+  font-size: 24px;
+  font-weight: 700;
   color: #000;
+}
+.bg1 {
+  height: 340px;
+  background-image: url(../images/1.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.bg2 {
+  height: 340px;
+  background-image: url(../images/2.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.bg3 {
+  height: 340px;
+  background-image: url(../images/3.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.bg4 {
+  height: 340px;
+  background-image: url(../images/4.jpg);
+  background-repeat: no-repeat;
+  background-position: right;
 }
 
 .site_map_dep2_ul {
-  padding-top: 25px;
+  padding-top: 20px;
 }
 
 .site_map_dep2_li {
-  line-height: 2rem;
-  margin-top: 20px;
+  padding-top: 10px;
 }
-/* 폰트 수정, 색상 변경 */
+
 .site_map_dep2_li > a {
-  font-size: 22px;
+  font-size: 18px;
   color: #444;
+  position: relative;
+}
+
+.site_map_dep2_li > a::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0px;
+  width: 0;
+  height: 20%;
+  background-color: #a3c23375;
+  color: #000;
+}
+.site_map_dep2_li > a:hover::after {
+  width: 100%;
+  transition: all 0.4s ease-out;
 }
 
 /* ========================================================================== */
