@@ -4,7 +4,7 @@
   height: 320px;
   background-color: #ccc;
 }
-.sub_main_banner .container {
+.sub_main_banner {
   width: 100%;
   height: 100%;
   background-image: url(../research_images/resaerch_main_banner.jpg);
@@ -15,7 +15,7 @@
   justify-content: center;
   align-items: center;
 }
-.sub_main_banner .container h1 {
+.sub_main_banner h1 {
   color: white;
   font-size: 40px;
 }
@@ -23,7 +23,7 @@
 /* sub_menu */
 .sub_2 .sub_menu {
   margin-top: 20px;
-  max-width: 1520px;
+  max-width: 320px;
   height: 20px;
   display: fixed;
   left: 0px;
@@ -32,6 +32,7 @@
 }
 .sub_2 .sub_menu > p {
   font-size: 14px;
+  font-weight: 700;
   color: #000;
   display: inline-block;
 }
@@ -51,7 +52,7 @@
   padding: 0 20px;
 }
 .sub_2 .sub_title .container {
-  max-width: 1920px;
+  max-width: 320px;
   height: 100%;
   margin-top: 50px;
   position: relative;
@@ -59,7 +60,7 @@
   flex-direction: column;
 }
 .sub_2 .sub_title .container .text {
-  max-width: 1520px;
+  max-width: 320px;
   position: relative;
 }
 .sub_2 .sub_title .container .text .mark {
@@ -73,24 +74,18 @@
   font-size: 15px;
   padding-top: 10px;
   margin: 0 auto;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   margin-top: 10px;
 }
 .sub_2 .sub_title .pc_img {
   display: none;
 }
 .sub_2 .sub_title .mobile_img {
-  width: 100%;
-  height: 300px;
-}
-
-.mark_bg {
-  width: 100%;
-  height: 300px;
+  width: 320px;
+  height: 240px;
   background-image: url(../research_images/mobile_sub2_2.jpg);
-  background-size: cover;
-  background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 /* 연구소 소개 */
@@ -136,7 +131,7 @@
   margin-bottom: 50px;
 }
 #pm .container {
-  max-width: 1520px;
+  max-width: 320px;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -284,20 +279,18 @@
   align-items: center;
   margin: 0 auto;
   /* background-color: lightblue; */
-  transition : 1s;
+  transition: 1s;
   transition-duration: 1s;
-        
 }
 
 #paper .direc {
   display: none;
 }
 #paper .direc .left {
- display: none;
-  
+  display: none;
 }
 #paper .direc .right {
- display: none;
+  display: none;
 }
 #paper .direc span {
   display: none;
@@ -322,7 +315,7 @@
   left: 0;
   top: 0;
   opacity: 0;
-  transition : 2s;
+  transition: 2s;
   transition-duration: 2s;
   /* display: none; */
 }

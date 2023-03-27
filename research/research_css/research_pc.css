@@ -1,17 +1,6 @@
-/* sub_main_ banner */
-.sub_2 {
-  max-width: 1920px;
-  margin: 0 auto;
-}
-
-.sub_2 .sub_main_banner {
-  width: 100%;
+.sub_main_banner {
+  max-width: 100%;
   height: 500px;
-  margin: 0 auto;
-}
-.sub_main_banner .container {
-  max-width: 1920px;
-  height: 100%;
   background-image: url(../research_images/resaerch_main_banner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
@@ -21,7 +10,7 @@
   align-items: center;
   margin: 0 auto;
 }
-.sub_main_banner .container h1 {
+.sub_main_banner h1 {
   color: white;
   font-size: 80px;
   margin: 0 auto;
@@ -78,9 +67,9 @@
   margin: 0 auto;
 }
 
-.sub_2 .sub_title .container img {
+/* .sub_2 .sub_title .container img {
   width: 100%;
-}
+} */
 
 .sub_2 .sub_title p {
   font-size: 45px;
@@ -91,11 +80,13 @@
 }
 .sub_2 .sub_title .pc_img {
   max-width: 1520px;
-  margin: 0 auto;
+  height: 520px;
+  background-image: url(../research_images/sub_title_img.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .sub_2 .sub_title .mobile_img {
   display: none;
-  margin: 0 auto;
 }
 
 /* 연구소 소개 */
