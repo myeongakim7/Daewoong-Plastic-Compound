@@ -199,25 +199,25 @@ nav > ul {
 }
 .bg1 {
   height: 340px;
-  background-image: url(/main/images/1.jpg);
+  background-image: url(../main/images/1.jpg);
   background-repeat: no-repeat;
   background-position: right;
 }
 .bg2 {
   height: 340px;
-  background-image: url(/main/images/2.jpg);
+  background-image: url(../main/images/2.jpg);
   background-repeat: no-repeat;
   background-position: right;
 }
 .bg3 {
   height: 340px;
-  background-image: url(/main/images/3.jpg);
+  background-image: url(../main/images/3.jpg);
   background-repeat: no-repeat;
   background-position: right;
 }
 .bg4 {
   height: 340px;
-  background-image: url(/main/images/4.jpg);
+  background-image: url(../main/images/4.jpg);
   background-repeat: no-repeat;
   background-position: right;
 }
