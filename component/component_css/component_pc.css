@@ -188,15 +188,6 @@ nav > ul {
   border-bottom: 1px solid #d8d7d7;
   transition: all 1s ease-out;
 }
-.site_map_dep1_li .map-box {
-  width: 150px;
-  height: 250px;
-}
-.site_map_dep1_li .map-box > a {
-  font-size: 24px;
-  font-weight: 700;
-  color: #000;
-}
 .bg1 {
   height: 340px;
   background-image: url(/main/images/1.jpg);
@@ -220,6 +211,15 @@ nav > ul {
   background-image: url(/main/images/4.jpg);
   background-repeat: no-repeat;
   background-position: right;
+}
+.site_map_dep1_li .map-box {
+  width: 150px;
+  height: 250px;
+}
+.site_map_dep1_li .map-box > a {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
 }
 
 .site_map_dep2_ul {

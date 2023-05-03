@@ -74,11 +74,13 @@
   justify-content: space-between;
 }
 
-.site_map_logo a img {
+.site_map_logo a {
   width: 64px;
   height: 28px;
 }
-
+.site_map_logo a img {
+  width: 100%;
+}
 /* site_map 의 하단입니다. */
 
 .site_map_nav {
@@ -98,7 +100,7 @@
   position: relative;
 }
 
-.site_map_dep1_li > a {
+.site_map_dep1_li .map-box > a {
   font-size: 28px;
   color: #000;
   font-weight: 500;
@@ -133,8 +135,12 @@
   font-size: 23px;
   color: #444;
 }
+.site_map_dep2_li > a:hover {
+  color: #a2c233;
+}
 
-.site_map_dep1_li:hover > ul {
+.site_map_dep1_li .map-box:hover > ul {
+  padding: 10px;
   max-height: 200px;
 }
 
